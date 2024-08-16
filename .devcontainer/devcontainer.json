@@ -6,8 +6,5 @@
     "--network=host"
   ],
   "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
-  "workspaceFolder": "/${localWorkspaceFolderBasename}",
-  "mounts": [
-    "source=ros1noeticdevcontainer-bashhistory/.bash_history,target=/home/vscode/.bash_history,type=bind"
-  ]
+  "workspaceFolder": "/${localWorkspaceFolderBasename}"
 }
