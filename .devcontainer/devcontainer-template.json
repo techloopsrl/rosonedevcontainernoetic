@@ -1,0 +1,32 @@
+{
+  "id": "ros",
+  "version": "0.1.0",
+  "name": "ROS",
+  "description": "A ROS Template",
+  "options": {
+    "rosDistro": {
+      "type": "string",
+      "description": "ROS Distro",
+      "proposals": [
+        "melodic",
+        "noetic",
+        "foxy",
+        "galactic",
+        "humble",
+        "iron",
+        "jazzy",
+        "rolling"
+      ],
+      "default": "rolling"
+    },
+    "installationType": {
+      "type": "string",
+      "description": "ROS Installation Type",
+      "proposals": [
+        "desktop",
+        "desktop-full"
+      ],
+      "default": "desktop"
+    }
+  }
+}
