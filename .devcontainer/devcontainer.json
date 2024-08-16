@@ -1,5 +1,5 @@
 {
-  "name": "${templateOption:rosDistro} ${templateOption:installationType}",
+  "name": "ros1noeticdevcontainer",
   "dockerFile": "Dockerfile",
   "runArgs": [
     "--privileged",
